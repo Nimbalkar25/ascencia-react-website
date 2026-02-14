@@ -5,7 +5,7 @@ A modern, fully responsive React website built with reusable components, smooth 
 ## Live Demo
 
 Primary (Vercel):  
-ascencia-react-website.vercel.app
+https://ascencia-react-website.vercel.app
  
 
 ## Tech Stack
