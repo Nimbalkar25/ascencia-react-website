@@ -1,0 +1,16 @@
+.custom-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(115deg, #f56ba7, #c31876);
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(245, 107, 167, 0.4);
+}
+
+.custom-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(245, 107, 167, 0.5);
+}

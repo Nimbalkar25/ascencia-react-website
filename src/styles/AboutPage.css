@@ -1,0 +1,64 @@
+.about-container {
+  padding: 4rem 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #555;
+}
+
+
+.about-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-top: 1.5rem;
+  color: #c31876;
+}
+
+.about-text p {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-hero h1 {
+    font-size: 1.8rem;
+  }
+}
